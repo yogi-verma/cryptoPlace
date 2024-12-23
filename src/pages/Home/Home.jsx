@@ -100,22 +100,7 @@ const Home = () => {
                             <p className="card-description">Summarize and simplify complex content with AI-powered note-taking solutions tailored to your needs.</p>
                         </motion.li>
                     </Link>
-                    <Link to="/stocks" className="card-link">
-                        <motion.li
-                            className="card"
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{
-                                duration: 2.2,
-                                type: 'spring',
-                                stiffness: 50,
-                            }}
-                        >
-                            <img src={img3} alt="Stocks" className="card-image" />
-                            <span className="card-text">Stocks</span>
-                            <p className="card-description">Get insights and analysis on stock markets to make informed investment decisions effectively.</p>
-                        </motion.li>
-                    </Link>
+                    
                 </ul>
             </div>
         </div>
