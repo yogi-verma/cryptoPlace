@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSummary } from "use-react-summary";
 import { Typewriter } from "react-simple-typewriter";
-import "./summarizer.css";
+import "./Summarizer.css";
 
 const Summarizer = () => {
   const [inputText, setInputText] = useState("");
